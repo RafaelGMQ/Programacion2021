@@ -12,6 +12,11 @@ public class ProcesoInformatico {
 	private String descripcion;
 	private int pid;
 	
+	static {
+		
+		contadorProcesos = 927;
+	}
+	
 	
 	// CONSTRUCTORES
 	
