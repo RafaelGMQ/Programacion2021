@@ -8,7 +8,8 @@ public class EjercicioBucles {
 
 //		bucleFor();
 //		bucleWhile();
-		bucleDoWhile();
+//		bucleDoWhile();
+		bucleForEach();
 	}
 	
 	public static void bucleFor() {
@@ -150,6 +151,18 @@ public class EjercicioBucles {
 			i++;
 			
 		} while (i < 100);
+	}
+	
+	public static void bucleForEach() {
+		
+		// APARTADO 5
+		
+		String[] diasDeLaSemana = {"LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO", "DOMINGO"};
+		
+		for(String s : diasDeLaSemana) {
+			
+			System.out.println(s);
+		}
 	}
 
 }
